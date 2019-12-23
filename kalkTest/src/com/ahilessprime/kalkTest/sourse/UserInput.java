@@ -210,7 +210,7 @@ public class UserInput {
                           userDataInt[1] = znach();
                           userDataInt[2] = perevod.getArab(userDataArray[1].toUpperCase());
                           //System.out.println(userDataInt[0]+" "+userDataInt[1]+" "+userDataInt[2]);
-                          for (int n = 0; n <= 2; n++) {//переводим на араб для проведения вычислений
+                          for (int n = 0; n < 3; n++) {//переводим на араб для проведения вычислений
                               if (userDataInt[n] >= 11){ //если значение 11 - недопустимое значение
                               throw new IllegalArgumentException(
                                       "Неправильный формат: цифры должны быть или арабскими" +
